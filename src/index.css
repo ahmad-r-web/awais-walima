@@ -8478,3 +8478,40 @@
   height: 19% !important;
   transform-origin: 50% 0% !important;
 }
+
+/* =========================================================
+   BRIGHT, ELEGANT & READABLE INVITATION LINES
+   Only the three requested section labels are highlighted.
+   The hero heading "WITH LOVE AND BLESSINGS" is untouched.
+   ========================================================= */
+
+.save-date-section .section-overline,
+.event-section .section-overline,
+.personal-section .section-overline {
+  color: #8b4d12 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  font-weight: 900 !important;
+  letter-spacing: 3px !important;
+  -webkit-text-stroke: 0.25px #8b4d12 !important;
+  text-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.95),
+    0 2px 5px rgba(164, 104, 28, 0.22) !important;
+  filter: none !important;
+}
+
+/* Maintain strong contrast and clean spacing on mobile */
+@media (max-width: 480px) {
+  .save-date-section .section-overline,
+  .event-section .section-overline,
+  .personal-section .section-overline {
+    color: #8b4d12 !important;
+    font-size: 10px !important;
+    font-weight: 900 !important;
+    letter-spacing: 2.4px !important;
+    -webkit-text-stroke: 0.2px #8b4d12 !important;
+    text-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.95),
+      0 2px 4px rgba(164, 104, 28, 0.2) !important;
+  }
+}
