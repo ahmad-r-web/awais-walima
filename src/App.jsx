@@ -503,9 +503,9 @@ export default function App() {
               </div>
 
               <p className="hero-message">
-                Together with our families, we invite you{" "}
+                With great pleasure, we invite you{" "}
                 <br />
-                to celebrate a beautiful new beginning.
+                to join us for our Walima reception.
               </p>
 
               <p className="hero-event">WALIMA CELEBRATION</p>
@@ -530,7 +530,7 @@ export default function App() {
               </div>
 
               <p className="save-date-text">
-                Your presence will make our celebration even more special.
+                We would be honoured to celebrate this special occasion with you.
               </p>
             </div>
           </section>
