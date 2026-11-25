@@ -491,8 +491,11 @@ export default function App() {
                 <span className="name-initial">A</span>
                 <span className="name-rest">wais</span>
                 <span className="name-ampersand">&</span>
+                <span className="name-initial">M</span>
+                <span className="name-rest">rs</span>
+                <span className="name-space"> </span>
                 <span className="name-initial">A</span>
-                <span className="name-rest">reej</span>
+                <span className="name-rest">wais</span>
               </h1>
 
               <div className="gold-divider">
